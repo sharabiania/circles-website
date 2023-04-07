@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Team from './components/team';
+import Team from './components/Team';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+        
 
       <p>
         Welcome to [company name], where we believe that psychedelics have the power to transform individuals, communities, and society as a whole. Our mission is to create a safe and welcoming space for the psychedelic community to connect, learn, and grow.
@@ -23,6 +22,7 @@ function App() {
         Thank you for considering [company name] for your psychedelic needs. We are excited to be a part of your journey towards self-discovery and personal transformation.
       </p>
       <Team />
+      </header>
     </div >
   );
 }
