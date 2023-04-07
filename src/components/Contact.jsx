@@ -32,11 +32,11 @@ export default function Contact({ companyName, email }) {
             Send
           </Button>
           <Snackbar
-           anchorOrigin={{vertical:'bottom', horizontal: 'center'}}
+            anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
             open={open}
             autoHideDuration={3000}
-            onClose={(event, reason) => { if (reason === 'clickaway') return; setOpen(false);}}
-            message="Oops something went wrong!"            
+            onClose={(event, reason) => { if (reason === 'clickaway') return; setOpen(false); }}
+            message="Oops something went wrong!"
           />
         </form>
       </Paper>

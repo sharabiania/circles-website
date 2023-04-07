@@ -43,6 +43,11 @@ h1 {
 nav {
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #282c34;
+  opacity: 0.98;
+  z-index: 100;
 }
 nav ul {
   list-style-type: none;
@@ -76,6 +81,10 @@ footer ul {
 footer ul li {
   margin:5px;
   font-size: 25px;
+}
+
+html {
+  scroll-padding-top: 120px; /* height of sticky header */
 }
 
 @keyframes App-logo-spin {

@@ -33,15 +33,17 @@ function App() {
   const companyName = "Circles & Cycles";
   return (
     <ThemeProvider theme={theme} >
-    <div className="App">
-      <header className="App-header">
-        <Navbar />
-        <Company companyName={companyName} />
-        <Team companyName={companyName} />
-        <Contact companyName={companyName} email="info@circles-n-cycles.com"/>
-      </header>
-      <Footing />
-    </div >
+      <div className="App">
+        <header className="App-header">
+          <Navbar />
+          <div style={{ padding: '15px' }}>
+            <Company companyName={companyName} />
+            <Team companyName={companyName} />
+            <Contact companyName={companyName} email="info@circles-n-cycles.com" />
+          </div>
+        </header>
+        <Footing />
+      </div >
     </ThemeProvider>
   );
 }
