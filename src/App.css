@@ -36,6 +36,10 @@
   border: 4px #fba161 solid;
 }
 
+h1 {
+  color: #fba161;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
