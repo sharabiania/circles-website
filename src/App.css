@@ -26,8 +26,29 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.link, .link:visited {
+  color: #fba161;
+  text-decoration: none;
+}
+
+.team-profile-pic {
+  border-radius: 50px;
+  border: 4px #fba161 solid;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav a, nav a:visited {
+  color: #fba161;
+  text-decoration: none;
+  margin: 10px;
 }
 
 @keyframes App-logo-spin {
