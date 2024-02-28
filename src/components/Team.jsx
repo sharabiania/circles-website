@@ -16,10 +16,7 @@ export default function Team({ companyName }) {
     <p>
       Ali Sharabiani, CTO and Co-Founder: Ali is a skilled software developer and entrepreneur who is passionate about using technology to support positive social change. He has extensive experience in building mobile applications and is dedicated to creating a user-friendly and engaging platform for the psychedelic community.
     </p>
-    <img className="team-profile-pic" src={mahdi} width={50} />
-    <p>
-      Mehdi Maghrouni, Community Manager: Mehdi is a community builder and activist who is passionate about creating safe and inclusive spaces for marginalized groups. He is committed to fostering a welcoming and supportive community for all who are interested in psychedelics, regardless of their background or experience level.
-    </p>
+    
     <p>
       Together, our team is dedicated to supporting the psychedelic community and advancing the field of psychedelic therapy. We are excited to be a part of this growing movement and look forward to connecting with you.
     </p>
