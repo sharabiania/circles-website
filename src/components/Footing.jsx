@@ -13,7 +13,7 @@ export default function Footing({ companyName }) {
       </ul>
 
       <div >
-        <p>Copyright © 2023 {companyName}.
+        <p>Copyright © {(new Date()).getFullYear()} {companyName}.
           All rights reserved.</p>
       </div>
 

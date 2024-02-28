@@ -1,3 +1,7 @@
+:root {
+  --primary: #ffffff;  
+  --accent:  #fba161;
+}
 .App {
   text-align: center;
 }
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--primary);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,11 +27,11 @@
   text-align: left;
   padding: 10%;;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .link, .link:visited {
-  color: #fba161;
+  color: var(--accent);
   text-decoration: none;
 }
 
@@ -45,7 +49,7 @@ nav {
   justify-content: space-between;
   position: sticky;
   top: 0;
-  background-color: #282c34;
+  background-color: var(--primary);
   opacity: 0.98;
   z-index: 100;
 }

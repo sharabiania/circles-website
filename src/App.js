@@ -30,7 +30,7 @@ const theme = createTheme({
 
 
 function App() {
-  const companyName = "Circles & Cycles";
+  const companyName = "ArchangX";
   return (
     <ThemeProvider theme={theme} >
       <div className="App">
@@ -39,7 +39,7 @@ function App() {
           <div style={{ padding: '15px' }}>
             <Company companyName={companyName} />
             <Team companyName={companyName} />
-            <Contact companyName={companyName} email="info@circles-n-cycles.com" />
+            <Contact companyName={companyName} email="info@archangx.com" />
           </div>
         </header>
         <Footing />

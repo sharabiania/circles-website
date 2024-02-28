@@ -17,7 +17,7 @@ export default function Contact({ companyName, email }) {
         We would love to hear from you! Whether you have questions about our mobile application, want to get involved in the psychedelic community, or simply want to say hello, we're here to help.
       </p>
       <p>
-        You can reach us by email at <a className="link" href="mailto:info@circles-n-cycles.com">{email}</a>, or by filling out the form below. We will do our best to respond to your inquiry within 24-48 hours.
+        You can reach us by email at <a className="link" href="mailto:info@archangx.com">{email}</a>, or by filling out the form below. We will do our best to respond to your inquiry within 24-48 hours.
       </p>
 
       <Paper elevation={4}>

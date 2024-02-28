@@ -1,6 +1,5 @@
 const shahin = require('../assets/shahin.jpg');
 const ali = require('../assets/ali.jpg');
-const mahdi = require('../assets/mahdi.jpg');
 
 export default function Team({ companyName }) {
   return (<>
