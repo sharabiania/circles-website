@@ -5,7 +5,7 @@ export default function Team({ companyName }) {
   return (<>
     <h1 id="team">Meet the Team</h1>
     <p>
-      At {companyName}, our team is made up of passionate and experienced professionals who are dedicated to supporting the psychedelic community. Here are a few of the people who make our mission possible:
+      At {companyName}, our team is made up of passionate and experienced professionals who are dedicated to supporting the spiritual community. Here are a few of the people who make our mission possible:
     </p>
     <img className="team-profile-pic" src={shahin} width={50} />
     <p>
